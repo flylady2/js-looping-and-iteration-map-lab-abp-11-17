@@ -4,4 +4,6 @@ function lowerCaseDrivers(array) {
     return driver.toLowerCase();
   });
 }
-  
+function nameToAttribues(array) {
+  return Object.assign({}, driver, {firstName: '', lastName: ''};
+)}
