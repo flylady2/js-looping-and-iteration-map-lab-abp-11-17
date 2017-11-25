@@ -11,8 +11,8 @@ function nameToAttributes(array) {
     return {firstName: firstName, lastName: lastName};
   })
 }
-function attributesToPhrase(array) {
-  for (driver in array) {
+function attributesToPhrase(drivers) {
+  for (driver in drivers) {
     return `${drivers['name']} is from ${drivers['hometown']}`
   }
 }
